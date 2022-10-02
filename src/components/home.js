@@ -74,7 +74,7 @@ class Home extends Component {
 
                 <header className="header">
                     <div className="header-content">
-                        <h1>Social Winter of Code</h1>
+                        <h1>India Tour of Open Source</h1>
                         <div className="header-logo">
                             <a href="./index.html"><img src="./img/logo-2.png" /></a>
                         </div>
@@ -86,21 +86,19 @@ class Home extends Component {
                 <a name="about"></a>
                 <section className="body-content about-swoc" id="about">
                     <div className="about-content col-lg-7">
-                        <h3>About <span>SWOC</span></h3>
+                        <h3>About <span>India Tour of Open Source</span></h3>
                         <p>
-                            Script Winter of Code is an open-source program envisioned by the
-                            Social. It aims to bring students into the world of open
-                            source development and see the power of unified problem-solving in
-                            real time. The projects that we will host have been carefully
-                            hand-picked to invigorate creative thinking and encourage
-                            collaboration among all participants.
+                        India Tour Of Open is a tour to have a vision to have meet-ups,hackathon,workshops in one day and tour. 
+                        The motive of this tour is to change the concept of offline events. 
+                        This will happen for first time in India which will impact the community of open source and tech space of India.
+
                         </p>
-                        <p>
+                        {/* <p>
                             The students will be guided by experienced mentors throughout their
                             journey. They will learn the skills essential in the world of
                             programming, all the while developing a deep appreciation for the
                             world of open-source.
-                        </p>
+                        </p> */}
                     </div>
                     <div className="about-vector">
                         {/* <img src="./img/about.png" /> */}

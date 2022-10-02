@@ -135,7 +135,7 @@ class Index extends Component {
                 {/* body */}
 
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/india-tour">
                         <Home />
                     </Route>
                 </Switch>
