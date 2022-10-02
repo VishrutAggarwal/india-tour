@@ -14,7 +14,7 @@ import {
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-elastic-carousel';
 
 function useEffectfun() {
@@ -119,12 +119,19 @@ class Home extends Component {
                                     <div className="col-md-4 card-cover">
                                         <div className="h-100 to-apply-card card__card__body">
                                             <h5 className="card-title">{item.cardTitle}</h5>
-                                            <p className="card-text">{item.cardText}</p>
+                                            {/* <p className="card-text">{item.cardText}</p> */}
+                                            {item.cardText.split("|").map((el) => {
+                                                return (
+                                                    <p className="card-text">
+                                                        {el}
+                                                    </p>
+                                                );
+                                            })}
                                             <div className="btn-apply">
                                                 {item.cardTitle.toLowerCase() == "participant" ?
-                                                    <div 
-                                                        class="apply-button" 
-                                                        data-hackathon-slug="swocs3" 
+                                                    <div
+                                                        class="apply-button"
+                                                        data-hackathon-slug={item.slug}
                                                         data-button-theme="light"
                                                     ></div>
                                                     :
@@ -159,7 +166,7 @@ class Home extends Component {
 
 
                 {/* timeline */}
-                <section className="timeline">
+                {/* <section className="timeline">
                     <a name="timeline"></a>
                     <div className="timeline-head">
                         <h3 className="card__card__title">Program Timeline</h3>
@@ -200,7 +207,7 @@ class Home extends Component {
                             </p>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section className="prizes cards-bg-sec">
                     <div className="">

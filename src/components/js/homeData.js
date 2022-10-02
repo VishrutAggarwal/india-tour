@@ -1,33 +1,40 @@
 export const registerItems = [
     {
         cardTitle: "Delhi",
-        cardText: ` Date: 14 Ooctober, 2022 | Venue: MAIT, Kashmere Gate, Delhi | in collaboration with gdsc`,
+        cardText: ` Date: 14 October, 2022 |
+        Venue: Maharaja Agrasen Institute of Technology, Rohini, Delhi | 
+        In collaboration with GDSC`,
         applyLink: "",
         applyStatus:"Coming Soon",
+        slug: "indiatourdelhi"
     },
     {
         cardTitle: "Bangalore",
         cardText: `Dates will be announced soon`,
         applyLink: "",
         applyStatus:"Coming Soon",
+        slug: ""
     },
     {
         cardTitle: "Chennai",
         cardText: `Dates will be announced soon`,
         applyLink: "",
         applyStatus:"Coming Soon",
+        slug: ""
     },
     {
         cardTitle: "Punjab",
         cardText: `Dates will be announced soon`,
         applyLink: "",
         applyStatus:"Coming Soon",
+        slug: ""
     },
     {
         cardTitle: "Jaipur",
         cardText: `Dates will be announced soon`,
         applyLink: "",
         applyStatus:"Coming Soon",
+        slug: ""
     },
 ]
 
@@ -254,20 +261,20 @@ export const FAQs = [
         answerText: `All the participants with successful participation will get digital
         certificates and some cool swags.`,
     },
-    {
-        questionId: "question6",
-        questionText: `By what time will the result be out?`,
-        answerText: `The results will be declared by 2nd week of April.`,
-    },
-    {
-        questionId: "question7",
-        questionText: `Can I participate in SWOC both as a participant and mentor?`,
-        answerText: `You can participate either as a mentor or as a participant but not as both.`,
-    },
+    // {
+    //     questionId: "question6",
+    //     questionText: `By what time will the result be out?`,
+    //     answerText: `The results will be declared by 2nd week of April.`,
+    // },
+    // {
+    //     questionId: "question7",
+    //     questionText: `Can I participate in SWOC both as a participant and mentor?`,
+    //     answerText: `You can participate either as a mentor or as a participant but not as both.`,
+    // },
     {
         questionId: "question8",
         questionText: `What if I have questions other than the one mentioned ?`,
-        answerText: `You can contact us at socialwinterofcode@gmail.com , all your queries would be answered.`,
+        answerText: `You can contact us at scriptfoundation@gmail.com , all your queries would be answered.`,
     },
 
 ]
