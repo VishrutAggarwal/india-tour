@@ -160,7 +160,7 @@ class Index extends Component {
                                             </ul>
                                             <ul className="f-nav-ul">
                                                 <li><a href="/#sponsors">Sponsors</a></li>
-                                                <li><a href="mailto:support@www.swoc.tech">Help</a></li>
+                                                <li><a href="mailto:scriptfoundation@gmail.com">Help</a></li>
                                             </ul>
                                         </div>
                                         <div className="footer-copyright-info">

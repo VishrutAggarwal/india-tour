@@ -2,13 +2,13 @@ import { React, Component } from 'react';
 import './css/home.scss'
 import {
     registerItems,
-    timelineItems,
+    // timelineItems,
     prizeItems,
     GoldSponsors,
     PlatSponsors,
-    PlatformPartners,
-    Sponsors,
-    CommunityPartners,
+    // PlatformPartners,
+    // Sponsors,
+    // CommunityPartners,
     FAQs,
 } from './js/homeData'
 import Aos from 'aos';
