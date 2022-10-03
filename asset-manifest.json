@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/india-tour/static/css/main.5861f93c.css",
+    "main.js": "/india-tour/static/js/main.642b731c.js",
+    "static/js/787.64f12a77.chunk.js": "/india-tour/static/js/787.64f12a77.chunk.js",
+    "index.html": "/india-tour/index.html",
+    "main.5861f93c.css.map": "/india-tour/static/css/main.5861f93c.css.map",
+    "main.642b731c.js.map": "/india-tour/static/js/main.642b731c.js.map",
+    "787.64f12a77.chunk.js.map": "/india-tour/static/js/787.64f12a77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5861f93c.css",
+    "static/js/main.642b731c.js"
+  ]
+}
