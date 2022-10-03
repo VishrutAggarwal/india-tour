@@ -76,9 +76,9 @@ class Home extends Component {
                 <header className="header">
                     <div className="header-content">
                         <h1>India Tour of Open Source</h1>
-                        <div className="header-logo">
+                        {/* <div className="header-logo">
                             <a href="./index.html"><img src="./img/logo-2.png" /></a>
-                        </div>
+                        </div> */}
                     </div>
                 </header>
                 {/* body */}
@@ -127,10 +127,10 @@ class Home extends Component {
                                                 );
                                             })}
                                             <div className="btn-apply">
-                                                {item.cardTitle.toLowerCase() == "participant" ?
+                                                {item.cardTitle.toLowerCase() == "delhi" ?
                                                     <div
                                                         class="apply-button"
-                                                        data-hackathon-slug={item.slug}
+                                                        data-hackathon-slug="indiatourdelhi"
                                                         data-button-theme="light"
                                                     ></div>
                                                     :

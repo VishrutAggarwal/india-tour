@@ -106,7 +106,7 @@ export const prizeItems = [
         prizeDescription: `young gun - $USDC 100 for the best project beginners just starting out on Solana and/or | 
         rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code and/or | 
         master glasseater - $USDC 500 for the best advanced project that is almost ready for full-time development.`,
-        prizeVector: "./img/logos/solana-sol-logo.svg",
+        prizeVector: "./img/logos/Solana-Colored.png",
         more: "Read about the bounty details and find code templates for Solana here.",
         // "Learn more about the Filecoin Track Prize here.",
         prizeLink:
@@ -118,7 +118,7 @@ export const prizeItems = [
         prizeDescription: `5,000 INR to winning project of the hackathon (must be deployed on Replit) | 
         Replit schwags to 5 eligible submissions deployed on Replit.  | 
         Eligibility to apply for internship/full-time roles at Replit.`,
-        prizeVector: "./img/logos/replit-logo-svg-vector.svg",
+        prizeVector: "./img/logos/Replit-light-background.png",
         more: "Read more about the bounty details for Replit here.",
         // "Learn more about the Filecoin Track Prize here.",
         prizeLink:
@@ -143,11 +143,11 @@ export const GoldSponsors = [
     },
     {
         sponsorLink: "https://solana.com/",
-        sponsorImg: "./img/logos/solana-sol-logo.svg",
+        sponsorImg: "./img/logos/Solana-Colored.png",
     },
     {
         sponsorLink: "https://replit.com/",
-        sponsorImg: "./img/logos/replit-logo-svg-vector.svg",
+        sponsorImg: "./img/logos/Replit-light-background.png",
     }
 ]
 
@@ -159,6 +159,10 @@ export const PlatSponsors = [
     {
         sponsorLink: "https://devfolio.co/",
         sponsorImg: "./img/logos/Devfolio_Logo.svg",
+    },
+    {
+        sponsorLink: "https://gradright.com/",
+        sponsorImg: "./img/logos/Gradright .png",
     }
 ]
 export const PlatformPartners = [
