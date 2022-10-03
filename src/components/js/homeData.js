@@ -251,7 +251,7 @@ export const FAQs = [
     {
         questionId: "question3",
         questionText: `Who all can participate ?`,
-        answerText: `No matter if you are a beginner or an expert , SWOC is open for 
+        answerText: `No matter if you are a beginner or an expert, India Tour of Open Source is open for 
         everyone who has a zeal to learn new things and achieve heights.`,
     },
     {
