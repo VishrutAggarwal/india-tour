@@ -162,7 +162,7 @@ export const PlatSponsors = [
     },
     {
         sponsorLink: "https://gradright.com/",
-        sponsorImg: "./img/logos/Gradright.png",
+        sponsorImg: "./img/logos/GradRight.png",
     }
 ]
 export const PlatformPartners = [
