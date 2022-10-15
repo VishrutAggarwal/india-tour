@@ -159,11 +159,11 @@ export const PlatSponsors = [
     {
         sponsorLink: "https://devfolio.co/",
         sponsorImg: "./img/logos/Devfolio_Logo.svg",
-    },
-    {
-        sponsorLink: "https://gradright.com/",
-        sponsorImg: "./img/logos/GradRight.png",
     }
+    // {
+    //     sponsorLink: "https://gradright.com/",
+    //     sponsorImg: "./img/logos/GradRight.png",
+    // }
 ]
 export const PlatformPartners = [
     {
