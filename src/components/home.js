@@ -134,7 +134,7 @@ class Home extends Component {
                                                         data-button-theme="light"
                                                     ></div>
                                                     :
-                                                    item.cardTitle.toLowerCase() == "punjab" ?
+                                                    (item.cardTitle.toLowerCase() == "punjab" ?
                                                         <div
                                                             class="apply-button"
                                                             data-hackathon-slug="indiatourpunjab"
@@ -144,7 +144,7 @@ class Home extends Component {
                                                         <button href={item.applyLink} target="_blank"
                                                             className={item.applyStatus == "Apply" ? "" : "disabled"}
                                                             readonly>{item.applyStatus}
-                                                        </button>
+                                                        </button>)
                                                 }
                                             </div>
                                         </div>
