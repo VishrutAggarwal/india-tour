@@ -31,8 +31,8 @@ function useEffectfun() {
     }, []);
 }
 
-function buttonUnique(titleofcard) {
-        switch(titleofcard.toLowerCase()) {
+function buttonUnique(item) {
+        switch(item.cardTitle.toLowerCase()) {
             case "delhi":
                 return(
                     <div
@@ -174,7 +174,7 @@ class Home extends Component {
                                                             readonly>{item.applyStatus}
                                                         </button>)
                                                 } */}
-                                                {buttonUnique(item.cardTitle)}
+                                                {buttonUnique(item)}
                                                 
                                             </div>
                                         </div>
