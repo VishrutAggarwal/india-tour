@@ -32,31 +32,32 @@ function useEffectfun() {
 }
 
 function buttonUnique(item) {
-        switch(item.cardTitle.toLowerCase()) {
-            case "delhi":
-                return(
-                    <div
-                        class="apply-button"
-                        data-hackathon-slug="indiatourdelhi"
-                        data-button-theme="light"
-                    ></div>
-                    )
+        if(item.cardTitle.toLowerCase() == "delhi") {
+            return(
+                <div
+                    class="apply-button"
+                    data-hackathon-slug="indiatourdelhi"
+                    data-button-theme="light"
+                ></div>
+                )
+            }
 
-            case "punjab":
-               return(
-                    <div
-                        class="apply-button"
-                        data-hackathon-slug="indiatourpunjab"
-                        data-button-theme="light"
-                    ></div>
-                    )
+        if(item.cardTitle.toLowerCase() == "punjab") {
+            return(
+                <div
+                    class="apply-button"
+                    data-hackathon-slug="indiatourpunjab"
+                    data-button-theme="light"
+                ></div>
+                )
+            }
 
-            default:
+            else{
                 return(<button href={item.applyLink} target="_blank"
                     className={item.applyStatus == "Apply" ? "" : "disabled"}
                     readonly>{item.applyStatus}
                 </button>)
-                }
+            }
 }
 
 
