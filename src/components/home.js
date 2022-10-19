@@ -134,10 +134,17 @@ class Home extends Component {
                                                         data-button-theme="light"
                                                     ></div>
                                                     :
-                                                    <button href={item.applyLink} target="_blank"
-                                                        className={item.applyStatus == "Apply" ? "" : "disabled"}
-                                                        readonly>{item.applyStatus}
-                                                    </button>
+                                                    item.cardTitle.toLowerCase() == "punjab" ?
+                                                        <div
+                                                            class="apply-button"
+                                                            data-hackathon-slug="indiatourpunjab"
+                                                            data-button-theme="light"
+                                                        ></div>
+                                                        :
+                                                        <button href={item.applyLink} target="_blank"
+                                                            className={item.applyStatus == "Apply" ? "" : "disabled"}
+                                                            readonly>{item.applyStatus}
+                                                        </button>
                                                 }
                                             </div>
                                         </div>

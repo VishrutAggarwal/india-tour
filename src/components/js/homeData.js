@@ -24,10 +24,11 @@ export const registerItems = [
     },
     {
         cardTitle: "Punjab",
-        cardText: `Dates will be announced soon`,
+        cardText: ` Date: 18 November, 2022 |
+        Venue: Lovely Professional University, Punjab`,
         applyLink: "",
         applyStatus:"Coming Soon",
-        slug: ""
+        slug: "indiatourpunjab"
     },
     {
         cardTitle: "Jaipur",
