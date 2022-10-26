@@ -156,24 +156,24 @@ class Home extends Component {
                                                 );
                                             })}
                                             <div className="btn-apply">
-                                                {item.cardTitle.toLowerCase() == "delhi" ?
+                                                {item.cardTitle.toLowerCase() == "punjab" ?
                                                     (<div
                                                         class="apply-button"
-                                                        data-hackathon-slug="indiatourdelhi"
+                                                        data-hackathon-slug="indiatourpunjab"
                                                         data-button-theme="light"
                                                     ></div>)
                                                     :
-                                                    (item.cardTitle.toLowerCase() == "punjab" ?
-                                                        (<div
-                                                            class="apply-button"
-                                                            data-hackathon-slug="indiatourpunjab"
-                                                            data-button-theme="light"
-                                                        ></div>)
-                                                        :
+                                                    // (item.cardTitle.toLowerCase() == "punjab" ?
+                                                    //     (<div
+                                                    //         class="apply-button"
+                                                    //         data-hackathon-slug="indiatourpunjab"
+                                                    //         data-button-theme="light"
+                                                    //     ></div>)
+                                                    //     :
                                                         (<a href={item.applyLink} target="_blank"
                                                             className={item.applyStatus == "Apply" ? "" : "disabled"}
                                                             readonly>{item.applyStatus}
-                                                        </a>))
+                                                        </a>)
                                                 }
                                                 {/* {buttonUnique(item)} */}
 
