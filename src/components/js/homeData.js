@@ -5,7 +5,7 @@ export const registerItems = [
         Venue: Maharaja Agrasen Institute of Technology, Rohini, Delhi | 
         In collaboration with GDSC`,
         applyLink: "",
-        applyStatus:"Coming Soon",
+        applyStatus:"Event Ended",
         slug: "indiatourdelhi"
     },
     {
