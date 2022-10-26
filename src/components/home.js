@@ -32,32 +32,32 @@ function useEffectfun() {
 }
 
 function buttonUnique(item) {
-        if(item.cardTitle.toLowerCase() == "delhi") {
-            return(
-                <div
-                    class="apply-button"
-                    data-hackathon-slug="indiatourdelhi"
-                    data-button-theme="light"
-                ></div>
-                )
-            }
+    if (item.cardTitle.toLowerCase() == "delhi") {
+        return (
+            <div
+                class="apply-button"
+                data-hackathon-slug="indiatourdelhi"
+                data-button-theme="light"
+            ></div>
+        )
+    }
 
-        if(item.cardTitle.toLowerCase() == "punjab") {
-            return(
-                <div
-                    class="apply-button"
-                    data-hackathon-slug="indiatourpunjab"
-                    data-button-theme="light"
-                ></div>
-                )
-            }
+    if (item.cardTitle.toLowerCase() == "punjab") {
+        return (
+            <div
+                class="apply-button"
+                data-hackathon-slug="indiatourpunjab"
+                data-button-theme="light"
+            ></div>
+        )
+    }
 
-            else{
-                return(<button href={item.applyLink} target="_blank"
-                    className={item.applyStatus == "Apply" ? "" : "disabled"}
-                    readonly>{item.applyStatus}
-                </button>)
-            }
+    else {
+        return (<button href={item.applyLink} target="_blank"
+            className={item.applyStatus == "Apply" ? "" : "disabled"}
+            readonly>{item.applyStatus}
+        </button>)
+    }
 }
 
 
@@ -118,9 +118,9 @@ class Home extends Component {
                     <div className="about-content col-lg-7">
                         <h3>About <span>India Tour of Open Source</span></h3>
                         <p>
-                        India Tour Of Open is a tour to have a vision to have meet-ups,hackathon,workshops in one day and tour. 
-                        The motive of this tour is to change the concept of offline events. 
-                        This will happen for first time in India which will impact the community of open source and tech space of India.
+                            India Tour Of Open is a tour to have a vision to have meet-ups,hackathon,workshops in one day and tour.
+                            The motive of this tour is to change the concept of offline events.
+                            This will happen for first time in India which will impact the community of open source and tech space of India.
 
                         </p>
                         {/* <p>
@@ -156,27 +156,27 @@ class Home extends Component {
                                                 );
                                             })}
                                             <div className="btn-apply">
-                                                {/* {item.cardTitle.toLowerCase() == "delhi" ?
-                                                    <div
+                                                {item.cardTitle.toLowerCase() == "delhi" ?
+                                                    (<div
                                                         class="apply-button"
                                                         data-hackathon-slug="indiatourdelhi"
                                                         data-button-theme="light"
-                                                    ></div>
+                                                    ></div>)
                                                     :
                                                     (item.cardTitle.toLowerCase() == "punjab" ?
-                                                        <div
+                                                        (<div
                                                             class="apply-button"
                                                             data-hackathon-slug="indiatourpunjab"
                                                             data-button-theme="light"
-                                                        ></div>
+                                                        ></div>)
                                                         :
-                                                        <button href={item.applyLink} target="_blank"
+                                                        (<a href={item.applyLink} target="_blank"
                                                             className={item.applyStatus == "Apply" ? "" : "disabled"}
                                                             readonly>{item.applyStatus}
-                                                        </button>)
-                                                } */}
-                                                {buttonUnique(item)}
-                                                
+                                                        </a>))
+                                                }
+                                                {/* {buttonUnique(item)} */}
+
                                             </div>
                                         </div>
                                     </div>
