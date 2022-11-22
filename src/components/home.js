@@ -156,10 +156,10 @@ class Home extends Component {
                                                 );
                                             })}
                                             <div className="btn-apply">
-                                                {item.cardTitle.toLowerCase() == "punjab" ?
+                                                {item.cardTitle.toLowerCase() == "bangalore" ?
                                                     (<div
                                                         class="apply-button"
-                                                        data-hackathon-slug="indiatourpunjab"
+                                                        data-hackathon-slug="indiatourbangalore"
                                                         data-button-theme="light"
                                                     ></div>)
                                                     :

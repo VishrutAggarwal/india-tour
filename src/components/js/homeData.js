@@ -10,7 +10,8 @@ export const registerItems = [
     },
     {
         cardTitle: "Bangalore",
-        cardText: `Dates will be announced soon`,
+        cardText: `Date: TBA | 
+        Venue: TBA`,
         applyLink: "",
         applyStatus:"Coming Soon",
         slug: ""
@@ -27,7 +28,7 @@ export const registerItems = [
         cardText: ` Date: 18 November, 2022 |
         Venue: Lovely Professional University, Punjab`,
         applyLink: "",
-        applyStatus:"Coming Soon",
+        applyStatus:"Event Ended",
         slug: "indiatourpunjab"
     },
     {
